@@ -8,6 +8,9 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "opensearch-py"
+      - dependency-name: "kubernetes"
     labels:
       - "dependabot"
       - "python"
